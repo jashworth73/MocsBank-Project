@@ -1,0 +1,267 @@
+***************************************
+Welcome to MocsBank Day #1
+***************************************
+
+OPENACCOUNT:
+	New Account Opened
+	Account:          1485
+	Name:             Clint Barton
+	Opening Balance:  2000.00
+
+DEPOSIT:
+	Account:         1485
+	Name:            Clint Barton
+	Deposit Amount:  1000.00
+	New Balance:     3000.00
+
+WITHDRAW:
+	Account:            1485
+	Name:               Clint Barton
+	Withdrawal Amount:  1500.00
+	New Balance:        1500.00
+
+CLOSEACCOUNT:
+	Error: cannot close account. Account #1400 was not found in the system.
+
+DEPOSIT:
+	Error: cannot make deposit. Account #1288 was not found in the system.
+
+PRINTBALANCE:
+	Error: cannot print balance. Account #4330 was not found in the system.
+
+OPENACCOUNT:
+	New Account Opened
+	Account:          7653
+	Name:             Natasha Romanoff
+	Opening Balance:  500.00
+
+OPENACCOUNT:
+	New Account Opened
+	Account:          1142
+	Name:             Thor Odinson
+	Opening Balance:  1500.00
+
+WITHDRAW:
+	Error: Insufficient funds.
+
+WITHDRAW:
+	Account:            1142
+	Name:               Thor Odinson
+	Withdrawal Amount:  500.00
+	New Balance:        1000.00
+
+MocsBank Transaction Report
+	Day:                1
+	# of Transactions:  6
+	-----------
+	Transaction #1
+	OPENACCOUNT
+		Account:          1485
+		Opening Balance:  2000.00
+	-----------
+	Transaction #2
+	DEPOSIT
+		Account:          1485
+		Old Balance:      2000.00
+		Deposit Amount:   1000.00
+		New Balance:      3000.00
+	-----------
+	Transaction #3
+	WITHDRAW
+		Account:          1485
+		Old Balance:      3000.00
+		Withdraw Amount:  1500.00
+		New Balance:      1500.00
+	-----------
+	Transaction #4
+	OPENACCOUNT
+		Account:          7653
+		Opening Balance:  500.00
+	-----------
+	Transaction #5
+	OPENACCOUNT
+		Account:          1142
+		Opening Balance:  1500.00
+	-----------
+	Transaction #6
+	WITHDRAW
+		Account:          1142
+		Old Balance:      1500.00
+		Withdraw Amount:  500.00
+		New Balance:      1000.00
+
+***************************************
+Welcome to MocsBank Day #2
+***************************************
+
+TRANSACTIONREPORT:
+	Error: cannot print Transaction Report. There are no transactions currently in MocsBank.
+
+OPENACCOUNT:
+	New Account Opened
+	Account:          4386
+	Name:             Carol Danvers
+	Opening Balance:  12000.00
+
+DEPOSIT:
+	Account:         1142
+	Name:            Thor Odinson
+	Deposit Amount:  2500.00
+	New Balance:     3500.00
+
+TRANSFER:
+	Error: cannot make transfer. One (or more) of the accounts is not in the system.
+
+CLOSEACCOUNT:
+	Account Has Been Closed
+	Account:          7653
+	Name:             Natasha Romanoff
+	Closing Balance:  500.00
+
+PRINTBALANCE:
+	Account:          4386
+	Name:             Carol Danvers
+	Current Balance:  12000.00
+
+WITHDRAW:
+	Error: cannot make withdrawal. Account #7653 was not found in the system.
+
+OPENACCOUNT:
+	New Account Opened
+	Account:          2712
+	Name:             Nick Fury
+	Opening Balance:  1750.00
+
+WITHDRAW:
+	Account:            4386
+	Name:               Carol Danvers
+	Withdrawal Amount:  4000.00
+	New Balance:        8000.00
+
+WITHDRAW:
+	Error: Insufficient funds.
+
+TRANSFER:
+	Error: Insufficient funds.
+
+OPENACCOUNT:
+	New Account Opened
+	Account:          9471
+	Name:             Bucky Barnes
+	Opening Balance:  400.00
+
+DEPOSIT:
+	Account:         9471
+	Name:            Bucky Barnes
+	Deposit Amount:  13000.00
+	New Balance:     13400.00
+
+DEPOSIT:
+	Account:         4386
+	Name:            Carol Danvers
+	Deposit Amount:  5000.00
+	New Balance:     13000.00
+
+TRANSFER:
+	Account (from):   4386
+	Account (to):     9471
+	Transfer Amount:  2000.00
+
+DEPOSIT:
+	Error: cannot make deposit. Account #7653 was not found in the system.
+
+WITHDRAW:
+	Account:            4386
+	Name:               Carol Danvers
+	Withdrawal Amount:  2300.00
+	New Balance:        8700.00
+
+OPENACCOUNT:
+	New Account Opened
+	Account:          5823
+	Name:             Wanda Maximoff
+	Opening Balance:  9000.00
+
+WITHDRAW:
+	Error: cannot make withdrawal. Account #2112 was not found in the system.
+
+MocsBank Transaction Report
+	Day:                2
+	# of Transactions:  12
+	-----------
+	Transaction #1
+	OPENACCOUNT
+		Account:          4386
+		Opening Balance:  12000.00
+	-----------
+	Transaction #2
+	DEPOSIT
+		Account:          1142
+		Old Balance:      1000.00
+		Deposit Amount:   2500.00
+		New Balance:      3500.00
+	-----------
+	Transaction #3
+	CLOSEACCOUNT
+		Account:          7653
+		Amount returned:  500.00
+	-----------
+	Transaction #4
+	OPENACCOUNT
+		Account:          2712
+		Opening Balance:  1750.00
+	-----------
+	Transaction #5
+	WITHDRAW
+		Account:          4386
+		Old Balance:      12000.00
+		Withdraw Amount:  4000.00
+		New Balance:      8000.00
+	-----------
+	Transaction #6
+	OPENACCOUNT
+		Account:          9471
+		Opening Balance:  400.00
+	-----------
+	Transaction #7
+	DEPOSIT
+		Account:          9471
+		Old Balance:      400.00
+		Deposit Amount:   13000.00
+		New Balance:      13400.00
+	-----------
+	Transaction #8
+	DEPOSIT
+		Account:          4386
+		Old Balance:      8000.00
+		Deposit Amount:   5000.00
+		New Balance:      13000.00
+	-----------
+	Transaction #9
+	TRANSFER
+		Account 1:        4386
+		Account 2:        9471
+		Old Balance:      13000.00
+		Transfer Amount:  2000.00
+		New Balance:      11000.00
+	-----------
+	Transaction #10
+	TRANSFER
+		Account 1:        4386
+		Account 2:        9471
+		Old Balance:      13400.00
+		Transfer Amount:  2000.00
+		New Balance:      15400.00
+	-----------
+	Transaction #11
+	WITHDRAW
+		Account:          4386
+		Old Balance:      11000.00
+		Withdraw Amount:  2300.00
+		New Balance:      8700.00
+	-----------
+	Transaction #12
+	OPENACCOUNT
+		Account:          5823
+		Opening Balance:  9000.00
+
