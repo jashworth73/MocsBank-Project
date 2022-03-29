@@ -1,13 +1,6 @@
 package mocsbank;
 
-/* Title: MocsBank
-*  Name: Jacob Ashworth
-*  ID: 1237199
-*  Email: jashworth@mocs.flsouthern.edu
-*  Course Number: CSC 3280
-*  Course Section: 001
-*  Honor Pledge: “I will practice academic and personal integrity and excellence of character and expect the same from others.”
-* */
+// Main File
 
 // Imports required for program to run
 import java.io.File;
